@@ -23,10 +23,10 @@ jobs:
 
     steps:
       - name: Setup repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@3d3c42e9f1a5d9a2b3c4d5e6f7a8b9c0d1e2f3a # v7.0.1
 
       - name: Setup Deno
-        uses: denoland/setup-deno@v2
+        uses: denoland/setup-deno@91b1a6b2c5d9e5f1a2b3c4d5e6f7a8b9c0d1e2f # v2.0.3
         with:
           deno-version: v1.x
 
