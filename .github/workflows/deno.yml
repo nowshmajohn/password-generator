@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       
       - name: Setup Deno
-        uses: denoland/setup-deno@v2
+        uses: denoland/setup-deno@61a26e86bfa7d81b3c06b36b6a1f7fbfc3d0b1d9
         with:
           deno-version: v2.0.2
       
